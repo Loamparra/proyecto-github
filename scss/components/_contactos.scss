@@ -1,0 +1,10 @@
+.iconos {
+    text-align: right;
+    margin: 40px;
+    padding-right: 40px;
+
+}
+
+.icon {
+    @include formato;
+}

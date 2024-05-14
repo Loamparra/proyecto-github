@@ -1,0 +1,64 @@
+.ilustracion{
+    width: 400px;
+    height: 250px;
+    object-fit: 100%;
+    padding: 1px;
+    margin: 20px;
+}
+
+@media (max-width: 555px) {
+    .ilustracion {
+        width: 300px;
+        height: 170px;
+        object-fit: 100%;
+        padding: auto;
+    }
+}
+
+.text3 {
+    color: $blue;
+    margin: 25px;
+}
+
+.text {
+    color: $green;
+    margin: 25px;
+}
+
+.text2 {
+    color: $orange;
+}
+
+
+
+section h2 {
+    @include formato;
+}
+
+form {
+    @include formato;
+}
+
+section p {
+    @include formato;
+}
+
+
+.imagen1 {
+    margin: 20px;
+    object-fit: cover;
+}
+
+
+.edit {
+    text-align: center;
+}
+
+
+
+.text-med {
+    text-align: center;
+    width: 50%;
+    margin: 10px;
+}
+

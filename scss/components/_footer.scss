@@ -1,0 +1,20 @@
+.pie {
+    width: 170px;
+    height: 160px;
+}
+
+.barra {
+   @include formato;
+}
+
+.barra ul {
+    list-style: none;
+}
+
+@media (max-width: 555px) {
+    .pie {
+        width: 90px;
+        height: 80px;
+        object-fit: 100%;
+    }
+}

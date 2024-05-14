@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.iconos {
+  text-align: right;
+  margin: 40px;
+  padding-right: 40px;
+}
+
+.icon {
+  text-align: center;
+  margin: 15px;
+}
+
+.barra1 a {
+  color: grey;
+  text-decoration: none;
+}
+
+.barra1 {
+  list-style: none;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+}
+
+.nav-item {
+  margin: 40px;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.logo {
+  width: 180px;
+  height: 170px;
+  object-fit: cover;
+  margin: 0%;
+}
+
+@media (max-width: 555px) {
+  .logo {
+    width: 100px;
+    height: 90px;
+    object-fit: 100%;
+  }
+}
+p {
+  text-align: center;
+  margin: 15px;
+}
+
+form {
+  text-align: center;
+  margin: 15px;
+}
+
+section p {
+  text-align: center;
+  margin: 15px;
+}
+
+.pie {
+  width: 170px;
+  height: 160px;
+}
+
+.barra {
+  text-align: center;
+  margin: 15px;
+}
+
+.barra ul {
+  list-style: none;
+}
+
+@media (max-width: 555px) {
+  .pie {
+    width: 90px;
+    height: 80px;
+    object-fit: 100%;
+  }
+}
+#portada {
+  width: 100%;
+  height: 417px;
+  object-fit: 100%;
+}
+
+#imagen {
+  width: 370px;
+  height: 290px;
+  text-align: center;
+  padding: 1px;
+  object-fit: 100%;
+  border-radius: 100%;
+}
+#imagen:hover {
+  background-color: grey;
+  transition: 0.05s;
+}
+
+.text3 {
+  color: rgb(0, 157, 255);
+  margin: 25px;
+}
+
+.text {
+  color: rgb(82, 206, 82);
+  margin: 25px;
+}
+
+.text2 {
+  color: rgb(227, 173, 73);
+}
+
+section h2 {
+  text-align: center;
+  margin: 15px;
+}
+
+.imagen1 {
+  margin: 20px;
+  object-fit: cover;
+}
+
+.edit {
+  text-align: center;
+}
+
+.text-med {
+  text-align: center;
+  width: 50%;
+  margin: 10px;
+}
+
+.ilustracion {
+  width: 400px;
+  height: 250px;
+  object-fit: 100%;
+  padding: 1px;
+  margin: 20px;
+}
+
+@media (max-width: 555px) {
+  .ilustracion {
+    width: 300px;
+    height: 170px;
+    object-fit: 100%;
+    padding: auto;
+  }
+}
+.text3 {
+  color: rgb(0, 157, 255);
+  margin: 25px;
+}
+
+.text {
+  color: rgb(82, 206, 82);
+  margin: 25px;
+}
+
+section h2 {
+  text-align: center;
+  margin: 15px;
+}
+
+.ilustracion {
+  width: 400px;
+  height: 250px;
+  object-fit: 100%;
+  padding: 1px;
+  margin: 20px;
+}
+
+@media (max-width: 555px) {
+  .ilustracion {
+    width: 300px;
+    height: 170px;
+    object-fit: 100%;
+    padding: auto;
+  }
+}
+.text3 {
+  color: rgb(0, 157, 255);
+  margin: 25px;
+}
+
+.text {
+  color: rgb(82, 206, 82);
+  margin: 25px;
+}
+
+.text2 {
+  color: rgb(227, 173, 73);
+}
+
+section h2 {
+  text-align: center;
+  margin: 15px;
+}
+
+form {
+  text-align: center;
+  margin: 15px;
+}
+
+section p {
+  text-align: center;
+  margin: 15px;
+}
+
+.imagen1 {
+  margin: 20px;
+  object-fit: cover;
+}
+
+.edit {
+  text-align: center;
+}
+
+.text-med {
+  text-align: center;
+  width: 50%;
+  margin: 10px;
+}
+
+.info {
+  margin: 25px;
+}
+
+.text3 {
+  color: rgb(0, 157, 255);
+  margin: 25px;
+}
+
+.imagen3 {
+  width: 260px;
+  height: 260px;
+  padding: 35px;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 1px solid #000;
+}
+
+.imagen3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.nombre {
+  text-align: center;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 20px;
+  gap: 20px;
+}
+.galeria :hover {
+  font-size: 2rem;
+  background-color: rgb(234, 230, 230);
+  transition: 0.5s;
+}
+
+.text {
+  color: rgb(82, 206, 82);
+  margin: 25px;
+}
+
+section h2 {
+  text-align: center;
+  margin: 15px;
+}
+
+.text3 {
+  color: rgb(0, 157, 255);
+  margin: 25px;
+}
+
+.text {
+  color: rgb(82, 206, 82);
+  margin: 25px;
+}
+
+.text2 {
+  color: rgb(227, 173, 73);
+}
+
+section h2 {
+  text-align: center;
+  margin: 15px;
+}
+
+form {
+  text-align: center;
+  margin: 15px;
+}
+
+section p {
+  text-align: center;
+  margin: 15px;
+}
+
+.imagen1 {
+  margin: 20px;
+  object-fit: cover;
+}
+
+.edit {
+  text-align: center;
+}
+
+.text-med {
+  text-align: center;
+  width: 50%;
+  margin: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

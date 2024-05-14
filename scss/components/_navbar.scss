@@ -1,0 +1,37 @@
+.barra1 a {
+    color: $grey;
+    text-decoration: none;
+
+}
+
+.barra1 {
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+
+}
+
+.nav-item {
+    margin: 40px;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+
+.logo {
+    width: 180px;
+    height: 170px;
+    object-fit: cover;
+    margin: 0%;
+}
+
+@media (max-width: 555px) {
+    .logo {
+        width: 100px;
+        height: 90px;
+        object-fit: 100%;
+    }
+}
+

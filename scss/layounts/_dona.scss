@@ -1,0 +1,46 @@
+.text3 {
+    color: $blue;
+    margin: 25px;
+}
+
+.text {
+    color: $green;
+    margin: 25px;
+}
+
+.text2 {
+    color: $orange;
+}
+
+
+
+section h2 {
+   @include formato;
+}
+
+form {
+    @include formato;
+}
+
+section p {
+   @include formato;
+}
+
+
+.imagen1 {
+    margin: 20px;
+    object-fit: cover;
+}
+
+
+.edit {
+    text-align: center;
+}
+
+
+
+.text-med {
+    text-align: center;
+    width: 50%;
+    margin: 10px;
+}

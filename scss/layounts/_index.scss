@@ -1,0 +1,60 @@
+#portada {
+    width: 100%;
+    height: 417px;
+    object-fit: 100%;
+}
+
+#imagen {
+    width: 370px;
+    height: 290px;
+    text-align: center;
+    padding: 1px;
+    object-fit: 100%;
+    border-radius: 100%;
+
+    &:hover {
+        background-color: $grey;
+        transition: 0.05s;
+    }
+
+}
+
+.text3 {
+    color: $blue;
+    margin: 25px;
+}
+
+.text {
+    color: $green;
+    margin: 25px;
+}
+
+.text2 {
+    color: $orange;
+}
+
+
+
+section h2 {
+    text-align: center;
+    margin: 15px;
+}
+
+
+.imagen1 {
+    margin: 20px;
+    object-fit: cover;
+}
+
+
+.edit {
+    text-align: center;
+}
+
+
+
+.text-med {
+    text-align: center;
+    width: 50%;
+    margin: 10px;
+}
