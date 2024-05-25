@@ -12,8 +12,6 @@
     color: $orange;
 }
 
-
-
 section h2 {
    @include formato;
 }
@@ -35,19 +33,15 @@ section p {
     background-size: cover;
     background-position: center;
 }
-
-
 .imagen1 {
+
     margin: 20px;
     object-fit: cover;
 }
-
-
 .edit {
+
     text-align: center;
 }
-
-
 
 .text-med {
     text-align: center;
