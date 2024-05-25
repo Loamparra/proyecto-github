@@ -19,42 +19,56 @@
 
 }
 
+.hero {
+    min-height: 300px;
+    max-height: 100px;
+    display: grid;
+    place-content: center;
+    background: linear-gradient(45deg, $dark, rgba(0, 0, 0, 0.548)), url("../imagenes/1631110168_935232_1631110201_noticia_normal_recorte1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 .text3 {
     color: $blue;
     margin: 25px;
+    text-align: center;
 }
 
 .text {
-    color: $orange;
+    color: #347034;
     margin: 25px;
+    text-align: center;
 }
 
 .text2 {
     color: $orange;
 }
 
-
+.description{
+    color: $gray;
+}
 
 section h2 {
     text-align: center;
     margin: 15px;
 }
 
-
 .imagen1 {
     margin: 20px;
     object-fit: cover;
 }
 
-
 .edit {
     text-align: center;
 }
-
-
 
 .text-med {
     text-align: center;
     width: 50%;
     margin: 10px;
+}
+
+.icon {
+    text-align: center;
 }

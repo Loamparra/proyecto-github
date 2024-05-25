@@ -1,9 +1,33 @@
+.formulario{
+    background: $green;
+    padding: 20px; 
+}
+
+
 p {
     @include formato;
 }
 
 form {
     @include formato;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center; 
+}
+
+input {
+    padding: 5px;
+    background-color: rgb(174, 219, 174) ;
+    color: #191919;
+    outline: none;
+}
+
+button { 
+    padding: 5px;
+    outline: none;
+    cursor: pointer;
+    background-color: $gray;
 }
 
 section p {

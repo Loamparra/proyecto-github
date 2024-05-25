@@ -1,5 +1,5 @@
-@mixin formato { 
-        text-align: center;
-        margin: 15px;
+@mixin formato ($text-aling: center, $margin: 15px) { 
+        text-align: $text-aling;
+        margin: $margin;
 }
 

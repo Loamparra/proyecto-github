@@ -26,6 +26,16 @@ section p {
    @include formato;
 }
 
+.hero{
+    min-height: 300px;
+    max-height: 100px;
+    display: grid;
+    place-content: center;
+    background: linear-gradient( 45deg, $dark, rgba(0, 0, 0, 0.548) ), url("../imagenes/1631110168_935232_1631110201_noticia_normal_recorte1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 
 .imagen1 {
     margin: 20px;
